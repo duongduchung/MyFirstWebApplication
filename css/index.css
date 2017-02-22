@@ -1,0 +1,19 @@
+.peopel{
+	overflow: auto;
+	padding:0 19px 28px 19px;
+	margin: ;
+}
+
+.name {
+	width: 20%;
+	float: left;
+}
+
+.biography {
+	width: 80%;
+	float: left;
+}
+
+.name > h2{
+	font-style: italic;
+}
