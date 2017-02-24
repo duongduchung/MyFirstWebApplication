@@ -10,3 +10,40 @@ td, th {
 	text-align: center;
 	padding: 10px;
 }
+
+th {
+	background-color: #333;
+	color: #aaa;
+	
+}
+
+th:last-child{
+	border-right-color: #99ffcc;
+}
+
+tr.even{
+	background-color: #00ff00;
+	color: #000;
+}
+
+tbody> tr:nth-child(4) > td{
+	border-top: 5px solid #333;
+}
+
+td:first-child{
+	text-align: left;
+
+}
+
+td:nth-child(2){
+	font-style: italic;
+}
+
+a:link{
+	color: #060;
+}
+
+tr:hover{
+	background-color: #4286f4;
+	color:#ccdfff;
+}

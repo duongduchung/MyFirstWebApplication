@@ -5,10 +5,11 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="stylesheet" type="text/css" href="css/table.css">
+		
 	</head>
 	<body>
 
-		<h2>My Studies</h2>
+		<h2 onclick="alert('This is what I have studied')">My Studies</h2>
 
 		<table>
 			
@@ -16,38 +17,40 @@
 			
 			
 					<tr>
-						
+						<tr >
 						<th>Year</th>
 						<th>School</th>
 						<th>Town</th>
 						<th>Country</th>
-
+						
 					</tr>	
 
 			</thead>
 
 
 			<tbody>
-				<tr>
-					<td>2015-2019</td>
+				<tr >
+					<td >2015-2019</td>
 					<td>University</td>
 					<td rowspan="4">Danang</td>
 					<td rowspan="4">Vietnam</td>
-				</tr>
-				<tr>
-					<td>2011-2015</td>
-					<td>High School</td>
-										
-				</tr>
-				<tr>
-					<td>2007-2011</td>
-					<td>Secondary School</td>
-				
+
 					
 				</tr>
-				<tr>
+				<tr class="even">
+					<td>2011-2015</td>
+					<td>High School</td>
+					
+										
+				</tr>
+					<td>2007-2011</td>
+					<td>Secondary School</td>
+					
+					
+				</tr>
+				<tr class="even">
 					<td>2002-2007</td>
-					<td>Primary School</td>
+					<td>Primary School</td>					
 					
 					
 				</tr>
@@ -55,5 +58,8 @@
 
 		</table>
 
+		<a href="index.html"> Back to my home page</a>
+
+		<script type="text/javascript " src="script/studies.js"></script>
 	</body>
 </html>
