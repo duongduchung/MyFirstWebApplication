@@ -5,15 +5,44 @@
 }
 
 .name {
-	width: 20%;
+	width: 30%;
 	float: left;
 }
 
 .biography {
-	width: 80%;
+	width: 70%;
 	float: left;
 }
 
 .name > h2{
 	font-style: italic;
 }
+
+#img-Costa{
+	content: url("../img/costa small.jpg");
+}
+
+#img-Hitler{
+	content: url("../img/hitler small.jpg");
+}
+
+#img-Obama{
+	content: url("../img/obama small.jpg");
+}
+
+@media screen and (min-width: 600px){
+	#img-Costa{
+	content: url("../img/Costa.jpg");
+}
+
+#img-Hitler{
+	content: url("../img/Hitler.jpg");
+}
+
+#img-Obama{
+	content: url("../img/Obama.jpg");
+}
+
+}
+
+

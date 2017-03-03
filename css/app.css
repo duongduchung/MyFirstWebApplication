@@ -1,9 +1,55 @@
 body{
 	background-color: gray;
-	color : #e6b3cc;
-	
-	font-size: 16px;
-	padding: 10px 28px 10px 28px;
+	color : #e6b3cc;	
+	font-size: 12px;
+	padding: 5px 15px 5px 15px;
+}
+
+figure{
+	border: 1px solid black; 
+	width:100%;
+	padding: 10px;
+	margin: 0px; 
+}
+
+@media print{
+	body{
+		background-color: white;
+		color: black;
+		
+	}
+}
+
+@media screen and (min-width: 450px){
+	figure{
+		width: 77px;
+	}
+}
+
+@media screen and (min-width: 600px){
+	figure{
+		width: 120px;
+	}
+}
+
+@media screen and (min-width: 800px){
+	figure{
+		width: 180px;
+	}
+}
+
+
+
+@media screen and (min-width: 1080px){
+	body{
+		font-size:  14px;
+		padding: 8px 28px 8px 28px;
+	}
+
+	figure{
+		width: 200px;
+
+	}
 }
 
 
@@ -12,12 +58,7 @@ p {
 	
 }
 
-figure{
-	border: 1px solid black; 
-	width: 180px;
-	padding: 10px;
-	margin: 0px; 
-}
+
 
 
 img{
